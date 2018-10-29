@@ -1,0 +1,99 @@
+.wrapper {
+	text-align: center;
+	margin: 20%;
+}
+
+.wrapper .quiz_start .title {
+	max-width: 200px;
+	display: block;
+	margin: 10px auto;
+}
+
+.wrapper .quiz_start .back_btn,
+.wrapper .quiz_start .start_btn {
+	max-width: 120px;
+	margin: 10px auto;
+	display: block;
+}
+
+.wrapper .quiz_1,
+.wrapper .quiz_2,
+.wrapper .quiz_3,
+.wrapper .quiz_4,
+.wrapper .quiz_5,
+.wrapper .quiz_end {
+	display: none;
+}
+
+.wrapper .panel .quiz_btn {
+	display: inline-block;
+	width: 45%;
+}
+
+.wrapper .quiz_num img {
+	max-width: 50px;
+}
+
+.wrapper .question {
+	margin: 20px auto;
+}
+
+.wrapper .question img {
+	max-width: 200px;
+}
+
+.wrapper .panel .quiz_btn img {
+	max-width: 50px;
+}
+
+.wrapper .quiz_end .kekka img {
+	max-width: 200px;
+}
+
+.wrapper .quiz_end .ans_num {
+	margin: 20px auto;
+}
+
+.wrapper .quiz_end .ans_num .ans_cnt .correct_cnt,
+.wrapper .quiz_end .ans_num .slash img,
+.wrapper .quiz_end .ans_num .sum img {
+	max-width: 20px;
+}
+
+.wrapper .quiz_end .ans_msg img {
+	max-width: 20px;
+}
+
+.wrapper .quiz_end .ans_msg .seikai {
+	max-width: 100px;
+	margin: 0px auto;
+}
+
+.wrapper .quiz_end .end_msg img {
+	max-width: 120px;
+}
+
+.wrapper .quiz_end .end_btn .back_btn {
+	margin-right: 130px;
+	max-width: 120px;
+}
+
+.wrapper .quiz_end .end_msg {
+	max-width: 200px;
+	margin: 20px auto;
+}
+
+.wrapper .quiz_end .end_btn .back_btn,
+.wrapper .quiz_end .end_btn .retry_btn {
+	max-width: 120px;
+	display: block;
+	margin: 10px auto;
+}
+
+.wrapper .correct,
+.wrapper .incorrect{
+	display: none;
+	max-width: 200px;
+	position: absolute;
+	left: 80px;
+}

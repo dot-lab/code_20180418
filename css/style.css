@@ -1,0 +1,81 @@
+.wrapper {
+	text-align: center;
+	margin: 50px;
+}
+
+.wrapper .quiz_start .title {
+	display: block;
+	margin: 20px auto;
+	max-width: 500px;
+}
+
+.wrapper .quiz_start .back_btn {
+	margin-right: 30px;
+	max-width: 170px;
+	cursor: pointer;
+}
+
+.wrapper .quiz_start .start_btn {
+	cursor: pointer;
+}
+
+.wrapper .quiz_1,
+.wrapper .quiz_2,
+.wrapper .quiz_3,
+.wrapper .quiz_4,
+.wrapper .quiz_5,
+.wrapper .quiz_end {
+	display: none;
+}
+
+.wrapper .panel .quiz_btn {
+	display: inline-block;
+	width: 45%;
+	cursor: pointer;
+}
+
+.wrapper .quiz_num img {
+	max-width: 50px;
+}
+
+.wrapper .question {
+	margin: 50px;
+}
+
+.wrapper .question img {
+	max-width: 500px;
+	display: block;
+	margin: 0 auto;
+}
+
+.wrapper .panel .quiz_btn img {
+	max-width: 150px;
+}
+
+.wrapper .quiz_end .ans_msg .seikai {
+	max-width: 300px;
+	margin-left: 20px;
+}
+
+.wrapper .quiz_end .end_btn .back_btn {
+	margin-right: 30px;
+	max-width: 170px;
+}
+
+.wrapper .quiz_end .end_msg,
+.wrapper .quiz_end .end_btn {
+	margin-top: 30px;
+}
+
+.wrapper .quiz_end .end_btn .retry_btn,
+.wrapper .quiz_end .end_btn .back_btn {
+	cursor: pointer;
+}
+
+.wrapper .correct,
+.wrapper .incorrect{
+	display: none;
+	position: absolute;
+	top: 140px;
+	left: 160px;
+}
